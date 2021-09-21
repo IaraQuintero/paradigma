@@ -1,0 +1,2 @@
+# paradigma
+Tarea proyecto potrero
