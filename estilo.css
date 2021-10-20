@@ -1,0 +1,137 @@
+.cabecera{
+    background-color: #AB3AA1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo{
+    position: fixed;
+    left: 80%;
+    width: 156px;
+    height: 43px;
+}
+.navegacion-lista{
+    background-color: #AB3AA1;
+    font-family:'Work Sans', sans-serif;
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+.menu {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    display:block;
+    scroll-behavior: auto;
+}
+.navegacion-lista li{
+    display: inline-block;
+    text-align-last: justify;
+}
+.menu:hover{
+    background-color:#E968ED;
+    box-shadow:  0 0px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 2em 2em 2em 2em
+}
+.main-seccion{
+    background-image: url('../imagenes/BANNER.jpg');
+    background-color: #E968ED;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.modeloagenda{
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+.modelos:hover{
+    transform:scale(1.05);
+}
+.modelo-agendatitulo{
+    
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family:'Work Sans', sans-serif; ;
+    color: #E1A4D8;
+    width: 100%;
+}
+.modelos{
+    background-color:#E1A4D8;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,.095);
+    transition: all 300ms;
+    position: relative;
+    width: 100%;
+        
+
+
+}
+.agenda2022{
+    font-size: 24px;
+    margin: 20px ;
+    text-decoration:none;
+    color: white;
+    display:block;
+    font-family:'Work Sans', sans-serif;
+    list-style: none;
+    padding-right: 3em;
+
+}
+.descripcion{
+    text-decoration: none;
+    color: white;
+    font-family:'Work Sans', sans-serif;
+    list-style:none;
+    text-align-last: center;
+    padding-right: 10px;
+    padding-left: 15px;
+
+}
+.img_agenda{
+    max-width: 100%;
+    display:block;
+    align-items:flex-end;
+}
+.final {
+    background-color: #AB3AA1;
+    color: white;
+    font-family:'Work Sans', sans-serif ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.derechos{
+    color: white;
+    background-color:#AB3AA1 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.redes{
+    background-color: #AB3AA1;
+    font-family:'Work Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
